@@ -1,0 +1,23 @@
+{
+  "name": "tvapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michaelwasilewski/tvapp.git"
+  },
+  "author": "Michael Wasilewski & co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michaelwasilewski/tvapp/issues"
+  },
+  "homepage": "https://github.com/Michaelwasilewski/tvapp#readme",
+  "dependencies": {
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  }
+}
