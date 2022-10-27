@@ -20,5 +20,8 @@
     "husky": "^8.0.1",
     "moment": "^2.29.4",
     "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
   }
 }
