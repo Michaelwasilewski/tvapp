@@ -5,18 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tv-app</title>
+    <script src="https://kit.fontawesome.com/4e32dc289a.js" crossorigin="anonymous"></script>
     <script src="/main.js" type="module" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
   </head>
   <body>
-    <!--
 
-      Navbar profil-ikon logo-ikon søke-ikon
-
-    -->
-
-<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-[390px] flex justify-center items-center h-screen mx-auto">
+      <div class="mx-auto bg-neutral-600 w-full rounded">
+      <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
   <div class="container flex flex-wrap justify-between items-center mx-auto">
   <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="flex items-center">
       <span class="material-symbols-outlined" style="color: white;">
@@ -33,17 +31,18 @@
 
   </div>
 </nav>
-
-    <main
-      class="max-w-[390px] flex justify-center items-center h-screen mx-auto"
-    >
-      <div class="mx-auto bg-neutral-600 p-2 w-full rounded"></div>
-      
-
-      
-    </main>
-    <footer>
-      
-    </footer>
+        <!-- bottom nav -->
+        <footer class="max-w-[390px] flex justify-center mx-auto">
+          <div class="mx-auto bg-neutral-800 py-3 px-6 w-full flex justify-between">
+            <img src="/img/home-button.png" alt="">
+            <img src="/img/tv2.png" alt="">
+            <img src="/img/playlist.png" alt="">
+            <img src="/img/replay.png" alt="">
+            <img src="/img/book-reader.png" alt="">
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script type="module" src="js/apiData.js"></script>
   </body>
 </html>
